@@ -20,13 +20,13 @@ const personalMovieDB = {
 // personalMovieDB.movies[a] = b;
 // personalMovieDB.movies[c] = d;
 
-// while (i < 2) {
-//     const a = prompt('What was the last movie you saw?', ''),
-//     b = prompt('How would you rate it?', '');
-//     if (a == '' || b == '' || a == null || b == null || a.length > 50) continue
-//     personalMovieDB.movies[a] = b
-//     i++;
-// }
+while (i < 2) {
+    const a = prompt('What was the last movie you saw?', ''),
+    b = prompt('How would you rate it?', '');
+    if (a == '' || b == '' || a == null || b == null || a.length > 50) continue
+    personalMovieDB.movies[a] = b
+    i++;
+}
 
 // console.log(personalMovieDB);
 
